@@ -19,7 +19,9 @@ Firstly, download the Camera_System file from this page and drop it into the "Pl
 
 Once in your project, navigate to any player character that would need this functionality and double click to edit the character's blueprint.
 
-Now navigate to the "Components" window and press the Add button. Search for a component called AC_Camera_System.
+Now navigate to the "Components" window and press the Add button. Search for an actor component called AC_Camera_System.
+
+Once that has all been done, navigate to the "SpringArm" and turn off "Do Collision Test" to disable the camera collision enabling the plugin to work.
 
 And that is all the set up required to use CameraTransparency!
 
