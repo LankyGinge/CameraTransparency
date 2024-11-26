@@ -1,5 +1,4 @@
 # CameraTransparency
-**Warning: CameraTransparency is currently in beta so it is not complete or perfect!**
 
 *Made for Unreal Engine 5.4*
 
@@ -24,6 +23,3 @@ Now navigate to the "Components" window and press the Add button. Search for an 
 Once that has all been done, navigate to the "SpringArm" and turn off "Do Collision Test" to disable the camera collision enabling the plugin to work.
 
 And that is all the set up required to use CameraTransparency!
-
-## Known Bugs
-- The array used to store objects' materials does not clear meaning that every object that stops being transparent will have the same material applied to it.
